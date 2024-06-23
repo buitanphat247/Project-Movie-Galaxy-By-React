@@ -1,0 +1,43 @@
+* {
+  user-select: none;
+  outline: none;
+}
+/* Custom scrollbar */
+.scrollbar-container {
+  overflow-y: scroll;
+  scrollbar-width: thin; /* For Firefox */
+  scrollbar-color: darkgray lightgray; /* For Firefox */
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgb(65, 63, 63);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: darkgray;
+  border-radius: 20px;
+}
+.MuiPagination-ul {
+  li {
+    a {
+      color: white;
+    }
+  }
+}
+.show-more-less-clickable {
+  display: block;
+  text-transform: capitalize;
+  font-weight: bold;
+  @media (min-width: 1024px) {
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
+.content-css {
+  text-align: justify;
+}
