@@ -25,7 +25,7 @@ const Search = () => {
   );
   return (
     <div className="search-group laptop:flex h-[40px] laptop:gap-x-10">
-      <div className="button-search laptop:flex-1 ">
+      <div className="button-search laptop:flex-1 h-full">
         <Input
           type="text"
           id="search"

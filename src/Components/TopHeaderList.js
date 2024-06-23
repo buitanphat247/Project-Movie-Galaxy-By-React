@@ -8,15 +8,6 @@ const TitleListCardStyled = styled.p`
   text-transform: capitalize;
   font-weight: bold;
   font-size: 20px;
-  @media (min-width: 320px) {
-    font-size: 14px;
-  }
-  @media (min-width: 600px) {
-    font-size: 16px;
-  }
-  @media (min-width: 1024px) {
-    font-size: 18px;
-  }
 `;
 const TopHeaderList = ({ title_list, have_titleList = true, type }) => {
   const navigate = useNavigate();
@@ -38,7 +29,7 @@ const TopHeaderList = ({ title_list, have_titleList = true, type }) => {
       {have_titleList === true && (
         <button onClick={handleClick}>
           <TitleListCardStyled className="see-all-movies laptop:hover:underline">
-            See all
+            See more
           </TitleListCardStyled>
         </button>
       )}

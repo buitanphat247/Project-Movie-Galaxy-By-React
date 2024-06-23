@@ -104,7 +104,7 @@ const Detail = () => {
   }, [params.id]);
   return (
     <>
-      <div className="container-wrapper bg-[#121733]  mt-5 mobile:rounded-md tablet:py-5">
+      <div className="container-wrapper bg-[#121733] mobile:mt-3 tablet:mt-5 mobile:rounded-md tablet:py-5">
         <div className="tablet:flex tablet:flex-col laptop:flex-row text-white tablet:px-3 tablet:gap-x-5">
           <RenderCardImageDetail dataMovie={dataMovie}></RenderCardImageDetail>
           <DescCardDetail

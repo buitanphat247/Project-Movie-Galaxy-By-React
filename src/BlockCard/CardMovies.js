@@ -8,16 +8,13 @@ import { handleScrollTop } from "../hooks/ScrollToTop";
 import CircleProgress from "../Components/CircleProgress";
 
 const WrapperImageCardStyled = styled.div`
-  @media (min-width: 320px) {
-    height: 200px;
-  }
-  @media (min-width: 1024px) {
+  @media (min-width: 600px) {
     height: 250px;
   }
 `;
 const WrapperCardMovie = styled.div`
   @media (min-width: 600px) {
-    min-height: 400px;
+    min-height: 450px;
   }
   @media (min-width: 1024px) {
     min-height: 450px;
