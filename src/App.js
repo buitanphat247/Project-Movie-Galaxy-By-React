@@ -6,7 +6,6 @@ import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import "react-loading-skeleton/dist/skeleton.css";
 import News from "./Pages/News";
-import Casters from "./Pages/Casters";
 
 // Lazy load components
 const Home = React.lazy(() => import("./Pages/Home"));
@@ -45,7 +44,6 @@ const App = () => {
               />
               <Route path="/tv-shows/:tvShowId" element={<Detail />} />
               <Route path="/news" element={<News />} />
-              <Route path="/caters" element={<Casters />} />
             </Route>
             <Route path="/login" element={<Login />} />
           </Routes>
