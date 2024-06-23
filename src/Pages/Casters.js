@@ -1,11 +1,7 @@
-import React from 'react';
+import React from "react";
 
 const Casters = () => {
-    return (
-        <div>
-            
-        </div>
-    );
+  return <></>;
 };
 
 export default Casters;
